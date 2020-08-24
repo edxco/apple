@@ -11,17 +11,16 @@ body,
 	grid-template-rows: 1fr 1fr 1fr;
 	gap: 1px 1px;
 	grid-template-areas: 'main main main main' 'main main main main' 'iPHONE5S Iphone5s Happy-Birthday Supplier';
+	width: 1200px;
 }
 
 .main {
 	grid-area: main;
 	background-color: #cccccc;
-	height: 50vh;
-	background-position: center;
+	height: 100vh;
+	background-position: center -600px;
 	background-repeat: no-repeat;
-	background-size: cover;
-	position: relative;
-
+	background-size: 100%;
 	background-image: url(../photos/your_verse_hero.jpg);
 }
 
