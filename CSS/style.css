@@ -1,0 +1,55 @@
+html,
+body,
+.grid-container {
+	height: 100%;
+	margin: 0;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+	gap: 1px 1px;
+	grid-template-areas: 'main main main main' 'main main main main' 'iPHONE5S Iphone5s Happy-Birthday Supplier';
+}
+
+.main {
+	grid-area: main;
+	height: 50vh;
+	padding: 400px 400px;
+	margin-right: 100px;
+	margin-left: 100px;
+	background-size: contain;
+	background-position: center;
+	border: 1px solid red;
+	background-image: url(../photos/your_verse_hero.jpg);
+}
+
+.iPHONE5S {
+	grid-area: iPHONE5S;
+}
+
+.Iphone5s {
+	grid-area: Iphone5s;
+}
+
+.Happy-Birthday {
+	grid-area: Happy-Birthday;
+}
+
+.Supplier {
+	grid-area: Supplier;
+}
+
+/* For presentation only, no need to copy the code below */
+.grid-container * {
+	border: 1px solid red;
+	position: relative;
+}
+
+.grid-container *:after {
+	content: attr(class);
+	position: absolute;
+	top: 0;
+	left: 0;
+}
