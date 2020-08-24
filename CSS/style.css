@@ -15,13 +15,13 @@ body,
 
 .main {
 	grid-area: main;
+	background-color: #cccccc;
 	height: 50vh;
-	padding: 400px 400px;
-	margin-right: 100px;
-	margin-left: 100px;
-	background-size: contain;
 	background-position: center;
-	border: 1px solid red;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+
 	background-image: url(../photos/your_verse_hero.jpg);
 }
 
