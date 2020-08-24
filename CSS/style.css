@@ -10,7 +10,7 @@ body,
 	grid-template-columns: 1fr 1fr 1fr 1fr;
 	grid-template-rows: 1fr 1fr 1fr;
 	gap: 1px 1px;
-	grid-template-areas: 'main main main main' 'main main main main' 'iPHONE5S Iphone5s Happy-Birthday Supplier';
+	grid-template-areas: 'main main main main''main main main main''iPHONE5S Iphone5s Happy-Birthday Supplier';
 	width: 1200px;
 }
 
@@ -51,4 +51,25 @@ body,
 	position: absolute;
 	top: 0;
 	left: 0;
+}
+
+nav a {
+	text-decoration: none;
+	color: inherit;
+	font-size: 14px;
+}
+
+nav li {
+	display: inline-block;
+	width: 10%;
+	padding: 5px 10px;
+	background-color: #000;
+	border: 1px solid #000;
+	text-align: center;
+	color: #fff;
+}
+
+nav li:hover {
+	background-color: #fff;
+	color: #000;
 }
