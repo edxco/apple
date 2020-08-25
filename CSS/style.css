@@ -46,13 +46,15 @@ main {
 .flex-boxes {
 	display: flex;
 	justify-content: space-between;
-	width: 1345px;
+	width: 1340px;
 }
 
 .box {
 	width: 335px;
-	background-color: tomato;
 }
+
+.box a:hover {
+	opacity:0.7}
 
 /* MEDIA QUERIES */
 @media (min-width: 600px) {
@@ -144,4 +146,8 @@ h2 {
 h3 {
 	margin-top: 35px;
 	font-size: 26px;
+}
+
+.footer-img {
+	width: 332px;
 }
