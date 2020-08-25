@@ -6,6 +6,16 @@
   font-family: 'Lato', sans-serif;
 }
 
+body {
+  background: url(../photos/your_verse_hero.jpg) center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
 a {
   text-decoration: none;
   color: #08c;
@@ -43,28 +53,12 @@ main {
 
 /* MAIN ARTICLE STYLING */
 .main__article {
-  background: url(../photos/your_verse_hero.jpg) no-repeat center -785px;
   width: 1340px;
   height: 533px;
   overflow: hidden;
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-/* MEDIA QUERIES */
-@media (min-width: 600px) {
-  .main__article {
-    background: url(../photos/your_verse_hero.jpg) no-repeat center -635px;
-    height: 682px;
-  }
-}
-
-@media (min-width: 2000px) {
-  .main__article {
-    background: url(../photos/your_verse_hero.jpg) no-repeat center -200px;
-    height: 1020px;
-  }
 }
 
 .topnav {
@@ -88,7 +82,7 @@ main {
   font-size: 13px;
   height: 35px;
   width: 7%;
-  background: url("../photos/bg-nav-side.jpg") no-repeat right top;
+  background: url(../photos/bg-nav-side.jpg) no-repeat right top;
 }
 
 .topnav a:hover {
@@ -141,6 +135,7 @@ footer {
   padding: 30px 15px;
   color: grey;
   letter-spacing: 0.1em;
+  background-color: #fff;
 }
 
 footer span {
@@ -164,7 +159,7 @@ h3 {
 }
 
 .footer-img {
-  width: 332px;
+  width: 100%;
 }
 
 .language {
