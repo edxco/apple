@@ -1,25 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&display=swap');
+
 * {
 	padding: 0;
 	margin: 0;
-	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
-		Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-family: 'Lato', sans-serif;
 }
 
-.container {
+main {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+}
+
+.txt-center {
+	text-align: center;
+}
+
+.white {
+	color: #fff;
+}
+
+.t100 {
+	font-weight: 100;
+}
+
+.t300 {
+	font-weight: 300;
+}
+
+.t400 {
+	font-weight: 400;
 }
 
 /* MAIN ARTICLE STYLING */
 .main__article {
 	background: url(../photos/your_verse_hero.jpg) no-repeat center -785px;
-	width: 1345px;
+	width: 1340px;
 	height: 533px;
 	overflow: hidden;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+}
+
+.flex-boxes {
+	display: flex;
+	justify-content: space-between;
+	width: 1345px;
+}
+
+.box {
+	width: 335px;
+	background-color: tomato;
 }
 
 /* MEDIA QUERIES */
@@ -38,27 +70,27 @@
 }
 
 .topnav {
-	background: url("../photos/bg-nav.jpg") repeat-x;
+	background: url("/photos/bg-nav.jpg") repeat-x;
 	background-size: auto 100%;
 	overflow: hidden;
 	margin: 50px auto;
-	width: 1100px;
+	width: 900px;
 	border-radius: 4px;
 	height: 40px;
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
-  display: block;
-  float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 12px 16px;
-  text-decoration: none;
-  font-size: 13px;
-  height: 35px;
-  width: 5%;
-  background: url("../photos/bg-nav-side.jpg") no-repeat right top;
+	display: block;
+	float: left;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 12px 16px;
+	text-decoration: none;
+	font-size: 13px;
+	height: 35px;
+	width: 7%;
+	background: url("../photos/bg-nav-side.jpg") no-repeat right top;
 }
 
 .topnav a:hover {
@@ -67,7 +99,7 @@
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  color: black;
+	color: black;
 }
 
 .logo {
@@ -76,19 +108,40 @@
 	top: -2px;
 }
 
-input[type=text]{
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-     border-radius: 20px;
-     border: 1px solid #2d9fd9;
-     color: #a0d18c;
-     width: 250px;
-     height: 30px;
-     padding-left: 10px;
-    }
-    
-input[type=text]:focus {
-     outline: none;
-     border: 1px solid #a0d18c;
-     color: #2d9fd9;
+input[type=text] {
+	background: transparent;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	border: 1px solid #555;
+	color: #fff;
+	width: 80px;
+	height: 18px;
+	padding-left: 25px;
+	margin: 9px 0 0 0
+}
+
+.txt-center i {
+	position: relative;
+	left: 20px;
+	bottom: 1px;
+}
+
+/* Text Style */
+
+
+
+h1 {
+	font-size: 65px;
+}
+
+h2 {
+	margin-top: 20px;
+	font-size: 35px;
+	line-height: 1.3em;
+}
+
+h3 {
+	margin-top: 35px;
+	font-size: 26px;
 }
