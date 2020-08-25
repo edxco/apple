@@ -62,7 +62,7 @@ main {
 }
 
 .topnav {
-  background: url("/photos/bg-nav.jpg") repeat-x;
+  background: url(/photos/bg-nav.jpg) repeat-x;
   background-size: auto 100%;
   overflow: hidden;
   margin: 50px auto;
